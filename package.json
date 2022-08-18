@@ -1,0 +1,21 @@
+{
+    "name": "print-contacts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start:dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "quoted-printable": "^1.0.1",
+        "utf-8": "^2.0.0",
+        "vcftojson": "^1.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
+}
